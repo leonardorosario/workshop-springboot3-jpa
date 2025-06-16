@@ -123,5 +123,5 @@ POST /users
 
 ## 🙋‍♂️ Autor
 
-**Leonardo Teixeira Rosario**  
+**Leonardo Rosario Teixeira**  
 [GitHub: @leonardorosario](https://github.com/leonardorosario)
