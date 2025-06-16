@@ -53,7 +53,7 @@ Relações:
 - **H2 Database** (perfil de teste)
 - **PostgreSQL** (dev/prod)
 - **Maven**
-- **Heroku (opcional)**
+- **Heroku (opcional, não utilizei)**
 
 ---
 
@@ -61,7 +61,7 @@ Relações:
 
 - **test**: Usa banco em memória (H2)
 - **dev**: Usa PostgreSQL local
-- **prod**: Preparado para deploy em nuvem (Heroku)
+- **prod**: Preparado para deploy em nuvem (Heroku opcional, não utilizei)
 
 ---
 
@@ -116,24 +116,8 @@ POST /users
 - Exceções customizadas (`ResourceNotFoundException`, `DatabaseException`)
 - Formatação de data com `Instant` e padrão ISO 8601
 - Camada de serviço com lógica de negócio
-- Deploy com Heroku e PostgreSQL (opcional)
+- Deploy com Heroku e PostgreSQL (opcional, apenas acompanhei)
 
----
-
-## ☁️ Deploy (Opcional)
-
-Etapas para publicação no Heroku:
-
-- Provisionar app e banco PostgreSQL
-- Configurar variáveis de ambiente no Heroku
-- Adicionar `application-prod.properties` e `system.properties`
-- Usar Git para enviar a aplicação
-
----
-
-## 📄 Licença
-
-Projeto de estudo sob licença MIT. Livre para uso e adaptação.
 
 ---
 
